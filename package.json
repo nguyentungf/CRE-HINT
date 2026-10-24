@@ -1,0 +1,30 @@
+{
+  "name": "cre-hint",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CRE-HINT - Hệ thống Quản lý Bệnh án và Hỗ trợ Lâm sàng Thông minh (Clinical Record Entry & Healthcare Information System)",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend",
+    "start": "npm start --prefix backend",
+    "start:backend": "npm start --prefix backend",
+    "lint": "npm run lint --prefix frontend"
+  },
+  "keywords": [
+    "cre-hint",
+    "hospital",
+    "telehealth",
+    "react",
+    "express",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "ISC"
+}
